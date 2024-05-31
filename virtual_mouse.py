@@ -8,7 +8,7 @@ CAM_WIDTH, CAM_HEIGHT = 640, 480
 
 ###################################
 
-prev_lm_list = []
+lm_list, prev_lm_list = [], []
 
 
 def _get_variance(lmId):
@@ -30,8 +30,8 @@ while True:
         break
 
     # Find hand landmarks
-    draw_img = hand_detector.fine_hand_landmarks(img, draw_img, draw=True)
-    lm_list = hand_detector.get_landmarks_position(img, draw_img)
+    hand_detector.fine_hand_landmarks(img, draw_img, draw=True)
+    lm_list = hand_detector.get_landmarks_position(img)
 
     dx, dy = _get_variance(6)
     # print(f"dx dy: {dx} {dy}")

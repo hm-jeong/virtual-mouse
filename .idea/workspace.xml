@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="438a1674-8e06-4392-9540-1c747f6ea53f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,9 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hDxd1w6H2qQ3awRy3ePQkA8Y7W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -18,9 +21,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.HandTrackingModule.executor": "Run",
+    "Python.Main.executor": "Run",
     "Python.VirtualMouseProject.executor": "Run",
+    "Python.hand_detection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/lab/Downloads/virtual-mouse-data-analysis-hand-landmark-vector/virtual-mouse-data-analysis-hand-landmark-vector",
+    "last_opened_file_path": "C:/Users/lab/workspace/virtual-mouse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -42,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717142532883</updated>
       <workItem from="1717142533958" duration="90000" />
+      <workItem from="1717142961835" duration="327000" />
     </task>
     <servers />
   </component>
@@ -50,6 +60,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/virtual_mouse_data_analysis_hand_landmark_vector$VirtualMouseProject.coverage" NAME="VirtualMouseProject Coverage Results" MODIFIED="1717142579429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virtual_mouse$hand_detection.coverage" NAME="hand_detection Coverage Results" MODIFIED="1717143213707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/virtual_mouse$Main.coverage" NAME="Main Coverage Results" MODIFIED="1717143229925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/virtual_mouse_data_analysis_hand_landmark_vector$HandTrackingModule.coverage" NAME="HandTrackingModule Coverage Results" MODIFIED="1717142553671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
