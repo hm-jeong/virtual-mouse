@@ -18,7 +18,7 @@ class CameraInputController:
         self.draw_img = np.zeros_like(self.img)
         return result, self.img, self.draw_img
 
-    def showFrame(self):
+    def show_frame(self):
         # Frame Rate
         cTime = time.time()
         fps = 1 / (cTime - self.pTime)
